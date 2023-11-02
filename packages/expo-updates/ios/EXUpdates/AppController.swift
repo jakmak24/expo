@@ -1087,7 +1087,7 @@ public final class DevLauncherController: NSObject, UpdatesExternalInterface {
   }
 
   /**
-   Common initialization for both fetchUpdateWithConfiguration: and storedUpdateIdsWithConfiguration:
+   Common initialization for both fetchUpdateWithConfiguration:
    Sets up EXUpdatesAppController shared instance
    Returns the updatesConfiguration
    */

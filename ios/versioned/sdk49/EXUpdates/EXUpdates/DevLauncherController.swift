@@ -139,7 +139,7 @@ public final class DevLauncherController: NSObject, UpdatesExternalInterface {
   }
 
   /**
-   Common initialization for both fetchUpdateWithConfiguration: and storedUpdateIdsWithConfiguration:
+   Common initialization for fetchUpdateWithConfiguration:
    Sets up ABI49_0_0EXUpdatesAppController shared instance
    Returns the updatesConfiguration
    */
