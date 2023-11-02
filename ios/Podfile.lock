@@ -2662,10 +2662,10 @@ SPEC CHECKSUMS:
   EXSplashScreen: 9c781de1c78454f5f3dd2c6a0a381ee50822b037
   EXStructuredHeaders: b88446922ba65b0c42defc5b409e0789b672d396
   EXTaskManager: 8bbe029b46e7e419a0429837ced467791fc6c806
-  EXUpdates: 131dc5d0a58711e43eead0a785f863e810e55ee1
+  EXUpdates: f0cec0ccb379037cdf63c87fb17b002da5b8b5ec
   EXUpdatesInterface: defbda79f841a0dec9588f2cbf9fdfed52583667
   FBAEMKit: 5facf4292bff062963f563d68fd5c0cdd6c90d63
-  FBAudienceNetwork: 4d6223a9a88a22e9dca8c9e6c1829a8745b86228
+  FBAudienceNetwork: 03e273f66b70756be7d060927111af97b7641b06
   FBLazyVector: 71803c074f6325f10b5ec891c443b6bbabef0ca7
   FBReactNativeSpec: 91188c438ac0700baec9b0722333884f5986f347
   FBSDKCoreKit: f94e107ae84a6f4c0d9edfd06ed989b084bfa5bb

@@ -32,14 +32,4 @@ public protocol UpdatesExternalInterface {
     success successBlock: @escaping UpdatesUpdateSuccessBlock,
     error errorBlock: @escaping UpdatesErrorBlock
   )
-
-  /**
-   * Obtains a list of UUIDs for updates already in the updates DB that are in the READY state.
-   * The success block will pass in the array of UUIDs
-   */
-  @objc func storedUpdateIds(
-    withConfiguration configuration: [String: Any],
-    success successBlock: @escaping UpdatesQuerySuccessBlock,
-    error errorBlock: @escaping UpdatesErrorBlock
-  )
 }
