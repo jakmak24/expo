@@ -47,6 +47,9 @@ internal class ImagePickerOptions : Record, Serializable {
   var cameraType: CameraType = CameraType.BACK
 
   @Field
+  var cropShape: CropShape = CropShape.RECTANGLE
+
+  @Field
   val orderedSelection: Boolean = false
 
   @Field
@@ -122,6 +125,11 @@ internal enum class MediaTypes(val value: String) : Enumerable {
 internal enum class CameraType(val value: String) : Enumerable {
   BACK("back"),
   FRONT("front")
+}
+
+internal enum class CropShape(val value: String) : Enumerable {
+  RECTANGLE("rectangle"),
+  OVAL("oval")
 }
 
 internal enum class DefaultTab(val value: String) : Enumerable {

@@ -189,4 +189,15 @@ export var CameraType;
      */
     CameraType["front"] = "front";
 })(CameraType || (CameraType = {}));
+export var CropShape;
+(function (CropShape) {
+    /**
+     * Rectangle crop shape.
+     */
+    CropShape["Rectangle"] = "rectangle";
+    /**
+     * Oval crop shape.
+     */
+    CropShape["Oval"] = "oval";
+})(CropShape || (CropShape = {}));
 //# sourceMappingURL=ImagePicker.types.js.map

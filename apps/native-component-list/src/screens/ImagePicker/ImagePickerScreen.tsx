@@ -28,6 +28,15 @@ const LAUNCH_PICKER_PARAMETERS: FunctionParameter[] = [
       },
       { name: 'allowsEditing', type: 'boolean', initial: false },
       {
+        name: 'cropShape',
+        type: 'enum',
+        values: [
+          { name: 'Rectangle', value: ImagePicker.CropShape.Rectangle },
+          { name: 'Oval', value: ImagePicker.CropShape.Oval },
+        ],
+        platforms: ['android'],
+      },
+      {
         name: 'aspect',
         type: 'enum',
         values: [

@@ -219,6 +219,16 @@ export declare enum CameraType {
      */
     front = "front"
 }
+export declare enum CropShape {
+    /**
+     * Rectangle crop shape.
+     */
+    Rectangle = "rectangle",
+    /**
+     * Oval crop shape.
+     */
+    Oval = "oval"
+}
 /**
  * @hidden
  * @deprecated Use `ImagePickerAsset` instead
@@ -493,6 +503,11 @@ export type ImagePickerOptions = {
      * @default CameraType.back
      */
     cameraType?: CameraType;
+    /**
+     * @default CropShape.Rectangle
+     * @platform android
+     */
+    cropShape?: CropShape;
     /**
      * Choose [preferred asset representation mode](https://developer.apple.com/documentation/photokit/phpickerconfigurationassetrepresentationmode)
      * to use when loading assets.
